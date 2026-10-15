@@ -13,9 +13,7 @@ const MAX_STORIES = 200;
 // Only stories from these outlets (and their subdomains) are allowed.
 // Add or remove domains here to change what counts as "credible".
 const TRUSTED = [
-  "reuters.com", "apnews.com", "bloomberg.com", "cnbc.com", "ft.com", "wsj.com",
-  "nytimes.com", "bbc.com", "theguardian.com", "axios.com", "economist.com",
-  "techcrunch.com", "theverge.com", "arstechnica.com", "wired.com",
+  "bloomberg.com", "cnbc.com", "axios.com", "techcrunch.com",
   "technologyreview.com", "spectrum.ieee.org", "venturebeat.com", "nature.com",
   "utilitydive.com", "datacenterdynamics.com", "datacenterknowledge.com",
   "iea.org", "energy.gov", "news.un.org",
