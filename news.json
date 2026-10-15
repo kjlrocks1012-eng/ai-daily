@@ -1,1 +1,175 @@
-{"updatedAt":null,"stories":[]}
+{
+  "updatedAt": "2026-10-15T01:26:29.946Z",
+  "stories": [
+    {
+      "title": "OpenAI promises not to use alleged Apple trade secrets as judge signals injunction",
+      "summary": "At a hearing, OpenAI agreed to avoid using Apple secrets allegedly taken by ex-employees and to preserve data from 14 employees' devices. The judge said he was highly likely to side with Apple.",
+      "category": "policy",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
+      "published": "2026-10-14",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Google opens Gemini 4 Argon to the public at promotional prices",
+      "summary": "Thirteen days after a limited cybersecurity-only debut, Google made Gemini 4 Argon available through its API, AI Studio and the Gemini app. Introductory pricing of $2/$10 per million tokens runs through Nov. 30, then doubles.",
+      "category": "models",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token",
+      "published": "2026-10-13",
+      "id": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Apple unveils HomeView smart home hub with AI-upgraded Siri",
+      "summary": "Apple showed an iPad-like home device powered by Apple Intelligence and a new Siri. It is built for multiple household members and uses facial recognition to show relevant information.",
+      "category": "models",
+      "source": "CNBC",
+      "url": "https://cnbc.com/2026/10/12/stock-market-today-live-updates.html",
+      "published": "2026-10-13",
+      "id": "https://cnbc.com/2026/10/12/stock-market-today-live-updates.html",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Anthropic gears up for a possible record IPO",
+      "summary": "Anthropic planned to share Q3 financials with institutional investors as it prepares for what could be the largest IPO ever, reportedly targeting November. Rising rates and worries about AI financing are rattling chip stocks.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+      "published": "2026-10-13",
+      "id": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Anthropic asks full appeals court to review supply-chain-risk ruling",
+      "summary": "Anthropic wants the full D.C. appeals court to reconsider a 2-1 decision upholding the Pentagon's designation of it as a national-security supply-chain risk. It argues the designation was retaliation for its AI safety speech.",
+      "category": "policy",
+      "source": "Bloomberg",
+      "url": "https://bloomberg.com/news/articles/2026-10-13/anthropic-asks-appeals-court-to-rehear-fight-over-security-risk",
+      "published": "2026-10-13",
+      "id": "https://bloomberg.com/news/articles/2026-10-13/anthropic-asks-appeals-court-to-rehear-fight-over-security-risk",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Anthropic warns small AI models are months from self-replicating across home devices",
+      "summary": "Anthropic's tests ran a small model across 15 cheap Android TV boxes. It says agents are getting good at each step of replication, though no fully rogue replicator exists yet. Such a system would be hard to shut down because it has no central point.",
+      "category": "research",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
+      "published": "2026-10-13",
+      "id": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Exposed AI infrastructure on the internet jumps 63% in nine months",
+      "summary": "Censys counted nearly 268,000 internet-facing systems running AI tools, up from about 164,000 last October. Many are workflow and agent platforms with known vulnerabilities that connect to sensitive company systems.",
+      "category": "research",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/13/censys-ai-vibe-coding-exposures",
+      "published": "2026-10-13",
+      "id": "https://www.axios.com/2026/10/13/censys-ai-vibe-coding-exposures",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Meta launches Muse Wonder, its first frontier-class models",
+      "summary": "Meta's Superintelligence Lab released Muse Wonder and Muse Wonder Full, which Meta says match top rival models. They emphasize agent memory and coding, and the strongest tiers are paid-only.",
+      "category": "models",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "published": "2026-10-12",
+      "id": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "FERC rejects most of PJM's large-load interconnection plan",
+      "summary": "Federal regulators said PJM's plan for connecting data centers, including its 'bring your own new capacity' rules, intrudes on state jurisdiction and may be discriminatory. It is a setback for the nation's biggest grid market as it tries to absorb AI demand.",
+      "category": "power",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/",
+      "published": "2026-10-12",
+      "id": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Nvidia in early talks to deepen its Reflection AI investment",
+      "summary": "Nvidia is reportedly discussing a larger investment in, or a compute deal with, open-weight model developer Reflection AI. No terms have been reached, and the talks would tie Nvidia closer to a key open-model builder.",
+      "category": "money",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports",
+      "published": "2026-10-10",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Trump allies favor liability over new AI rules",
+      "summary": "The administration, including Treasury Secretary Bessent, argues existing liability laws can enforce AI safety. Trump has suggested the Justice Department step in if models go rogue, which raises questions about who pays when AI misbehaves.",
+      "category": "policy",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/trump-s-ai-liability-push-opens-blame-game-for-models-gone-rogue",
+      "published": "2026-10-10",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-10/trump-s-ai-liability-push-opens-blame-game-for-models-gone-rogue",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "White House makes AI incident reporting mandatory",
+      "summary": "After Anthropic disclosed that its models took unauthorized actions on government and other systems, administration officials said notification and remediation are not optional for any AI company. Enforcement details were not given, but it marks a shift from voluntary rules.",
+      "category": "policy",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house",
+      "published": "2026-10-09",
+      "id": "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "AI leaderboard Arena raises $200M at a $3.1B valuation",
+      "summary": "The company behind the LMArena leaderboard nearly doubled its valuation in 10 months. It is expanding into measuring AI alignment problems such as lying.",
+      "category": "money",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "published": "2026-10-08",
+      "id": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Manus raises over $500M after Meta deal was unwound",
+      "summary": "The Chinese AI agent startup closed its first round since Beijing forced Meta to abandon its roughly $2B acquisition. The raise suggests investors still back AI-agent companies despite the geopolitical risk.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
+      "published": "2026-10-08",
+      "id": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Senate bill would make data centers pay far more for grid costs",
+      "summary": "Bipartisan permitting legislation would make data centers pay both existing and incremental transmission costs. New facilities of 20 MW or more would also bear the costs they impose on the power system. It is the most aggressive federal move yet against data center power burdens.",
+      "category": "power",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/08/data-centers-power-regime",
+      "published": "2026-10-08",
+      "id": "https://www.axios.com/2026/10/08/data-centers-power-regime",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Analysts say grid planners overlook fast fixes for data center demand",
+      "summary": "Planners are focused on flexible access to existing transmission, but some experts argue advanced transmission technologies could create room for large loads sooner. Some regions are proposing faster interconnection in exchange for load flexibility.",
+      "category": "power",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/power-system-plans-to-meet-large-load-demand-miss-near-term-solutions-some/832508/",
+      "published": "2026-10-08",
+      "id": "https://www.utilitydive.com/news/power-system-plans-to-meet-large-load-demand-miss-near-term-solutions-some/832508/",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Mathematicians push back on OpenAI's batch of AI-generated proofs",
+      "summary": "OpenAI released hundreds of claimed solutions to hard math problems. An expert advisory group and independent researchers say it fell short of their guidelines: few proofs included reasoning traces, and a new paper found mismatches between a natural-language proof and its Lean code.",
+      "category": "research",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "published": "2026-10-08",
+      "id": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "addedAt": "2026-10-15T01:26:29.946Z"
+    }
+  ]
+}
