@@ -1,0 +1,30 @@
+name: Update news
+
+on:
+  schedule:
+    # Mondays at 12:00 UTC = 8:00am New York in summer, 7:00am in winter.
+    - cron: "0 12 * * 1"
+  workflow_dispatch: # adds a "Run workflow" button for manual updates
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch latest AI news
+        run: node scripts/fetch-news.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Save news.json
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add news.json
+          git diff --staged --quiet || git commit -m "Update news $(date -u +%F)"
+          git push
