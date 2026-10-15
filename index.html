@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Daily</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AI Daily">
+<meta name="theme-color" content="#EEF1F4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12161C" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF1F4; --surface:#FFFFFF; --ink:#18202B; --muted:#5A6573; --line:#D6DCE3;
+  --accent:#2F5BEA;
+  --c-models:#2F5BEA; --c-money:#1E8A57; --c-power:#B9770E; --c-policy:#7547CC; --c-research:#0E8689;
+  --new:#E0A100;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#12161C; --surface:#1A2029; --ink:#E7EBF0; --muted:#98A3B2; --line:#2B3340;
+    --accent:#86A2FF;
+    --c-models:#86A2FF; --c-money:#4FC98C; --c-power:#F0B04A; --c-policy:#B496F5; --c-research:#4CC9CB;
+    --new:#F5C542; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#12161C; --surface:#1A2029; --ink:#E7EBF0; --muted:#98A3B2; --line:#2B3340;
+  --accent:#86A2FF;
+  --c-models:#86A2FF; --c-money:#4FC98C; --c-power:#F0B04A; --c-policy:#B496F5; --c-research:#4CC9CB;
+  --new:#F5C542; color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 64px}
+header .brand{font-weight:700;font-size:15px;color:var(--muted);margin:0 0 18px;display:flex;align-items:center;gap:8px}
+header .brand i{width:10px;height:10px;border-radius:50%;background:var(--accent);display:inline-block}
+h1{font-size:clamp(34px,8vw,52px);line-height:1.02;letter-spacing:-0.025em;font-weight:800;margin:0}
+.status{color:var(--muted);margin:10px 0 18px;font-size:15px}
+.mix{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--line);margin-bottom:8px}
+.mix span{display:block;height:100%}
+.mixlegend{font-size:13px;color:var(--muted);margin:0 0 24px}
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);
+  margin:0 -20px;padding:10px 20px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line)}
+.filters::-webkit-scrollbar{display:none}
+.chip{flex:none;font:inherit;font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;
+  border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:flex;align-items:center;gap:7px}
+.chip .dot{width:8px;height:8px;border-radius:50%}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:focus-visible,.save:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h2{font-size:14px;font-weight:700;color:var(--muted);margin:32px 0 10px;letter-spacing:0}
+.story{background:var(--surface);border-radius:6px;padding:16px 16px 14px 18px;margin-bottom:10px;position:relative;border-left:4px solid var(--cat)}
+.meta{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:var(--cat);margin-bottom:4px}
+.meta .new{color:#1a1300;background:var(--new);border-radius:3px;padding:0 6px;font-size:12px;font-weight:700}
+.story h3{font-size:18px;line-height:1.3;margin:0 0 6px;font-weight:700;letter-spacing:-0.01em}
+.story p{margin:0 0 12px;color:var(--muted);font-size:15px;max-width:62ch}
+.foot{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.foot a{color:var(--accent);font-weight:600;font-size:14px;text-decoration:none}
+.foot a:hover{text-decoration:underline}
+.save{font:inherit;font-size:13px;font-weight:600;background:none;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:4px 12px;cursor:pointer}
+.save[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
+.empty{background:var(--surface);border-radius:6px;padding:24px;margin-top:24px;color:var(--muted)}
+.empty strong{color:var(--ink);display:block;margin-bottom:4px}
+footer{margin-top:40px;font-size:13px;color:var(--muted);max-width:62ch}
+@media (prefers-reduced-motion:no-preference){
+  .mix span{transition:flex-grow .6s ease}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="brand"><i></i>AI Daily</p>
+    <h1 id="today"></h1>
+    <p class="status" id="status">Loading stories…</p>
+    <div class="mix" id="mix" aria-hidden="true"></div>
+    <p class="mixlegend" id="mixlegend"></p>
+  </header>
+  <nav class="filters" id="filters" aria-label="Filter stories"></nav>
+  <main id="feed"></main>
+  <footer>Every story links to its original source. New stories arrive every Monday morning.</footer>
+</div>
+<script>
+const CATS = {
+  models:{label:"Models & products",color:"var(--c-models)"},
+  money:{label:"Investment",color:"var(--c-money)"},
+  power:{label:"Power & infrastructure",color:"var(--c-power)"},
+  policy:{label:"Policy & safety",color:"var(--c-policy)"},
+  research:{label:"Research",color:"var(--c-research)"}
+};
+let stories = [], meta = null, filter = "all";
+const store = {
+  get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
+  set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+};
+let saved = new Set(store.get("aidaily.saved",[]));
+const lastVisit = store.get("aidaily.lastVisit",null);
+store.set("aidaily.lastVisit",new Date().toISOString());
+
+const now = new Date();
+document.getElementById("today").textContent =
+  now.toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"});
+
+function dayKey(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function dayLabel(iso){
+  const today=dayKey(now); const y=new Date(now); y.setDate(y.getDate()-1);
+  if(iso===today) return "Today";
+  if(iso===dayKey(y)) return "Yesterday";
+  const [Y,M,D]=iso.split("-").map(Number);
+  return new Date(Y,M-1,D).toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"});
+}
+
+function renderFilters(){
+  const el=document.getElementById("filters"); el.textContent="";
+  const opts=[["all","All",null],...Object.entries(CATS).map(([k,v])=>[k,v.label,v.color]),["saved","Saved",null]];
+  for(const [k,label,color] of opts){
+    const b=document.createElement("button");
+    b.className="chip"; b.type="button"; b.setAttribute("aria-pressed",String(filter===k));
+    if(color){const d=document.createElement("span");d.className="dot";d.style.background=color;b.append(d)}
+    b.append(label);
+    b.onclick=()=>{filter=k;renderFilters();renderFeed()};
+    el.append(b);
+  }
+}
+
+function renderMix(){
+  const mix=document.getElementById("mix"), leg=document.getElementById("mixlegend");
+  mix.textContent="";
+  const recent=stories.filter(s=>s.published>=dayKey(new Date(now.getTime()-7*864e5)));
+  if(!recent.length){leg.textContent="";return}
+  const counts={}; recent.forEach(s=>counts[s.category]=(counts[s.category]||0)+1);
+  const parts=[];
+  for(const [k,v] of Object.entries(CATS)){
+    if(!counts[k]) continue;
+    const s=document.createElement("span"); s.style.flexGrow=counts[k]; s.style.background=v.color; mix.append(s);
+    parts.push(counts[k]+" "+v.label.toLowerCase());
+  }
+  leg.textContent="This week: "+parts.join(", ");
+}
+
+function renderFeed(){
+  const feed=document.getElementById("feed"); feed.textContent="";
+  let list=stories.slice();
+  if(filter==="saved") list=list.filter(s=>saved.has(s.id));
+  else if(filter!=="all") list=list.filter(s=>s.category===filter);
+  if(!list.length){
+    const e=document.createElement("div"); e.className="empty";
+    const t=document.createElement("strong");
+    if(filter==="saved"){t.textContent="No saved stories";e.append(t,"Tap Save on any story to keep it here.")}
+    else if(!stories.length){t.textContent="No stories yet";e.append(t,"Stories appear after the weekly update runs. On GitHub, open Actions, choose Update news, and select Run workflow to fill it now.")}
+    else{t.textContent="Nothing in this category yet";e.append(t,"Try All to see every story.")}
+    feed.append(e); return;
+  }
+  let current=null;
+  for(const s of list){
+    if(s.published!==current){
+      current=s.published;
+      const h=document.createElement("h2"); h.textContent=dayLabel(s.published); feed.append(h);
+    }
+    const cat=CATS[s.category]||CATS.models;
+    const a=document.createElement("article"); a.className="story"; a.style.setProperty("--cat",cat.color);
+    const m=document.createElement("div"); m.className="meta"; m.append(cat.label);
+    if(lastVisit && s.addedAt && s.addedAt>lastVisit){const n=document.createElement("span");n.className="new";n.textContent="New";m.append(n)}
+    const h3=document.createElement("h3"); h3.textContent=s.title;
+    const p=document.createElement("p"); p.textContent=s.summary;
+    const f=document.createElement("div"); f.className="foot";
+    const link=document.createElement("a"); link.href=s.url; link.target="_blank"; link.rel="noopener noreferrer";
+    link.textContent="Read at "+s.source;
+    const sv=document.createElement("button"); sv.type="button"; sv.className="save";
+    const isSaved=saved.has(s.id); sv.setAttribute("aria-pressed",String(isSaved)); sv.textContent=isSaved?"Saved":"Save";
+    sv.onclick=()=>{saved.has(s.id)?saved.delete(s.id):saved.add(s.id);store.set("aidaily.saved",[...saved]);renderFeed()};
+    f.append(link,sv); a.append(m,h3,p,f); feed.append(a);
+  }
+}
+
+function renderStatus(){
+  const st=document.getElementById("status");
+  if(!stories.length){st.textContent="No stories loaded yet.";return}
+  let t=stories.length+" stories";
+  if(meta&&meta.updatedAt){
+    const d=new Date(meta.updatedAt);
+    t+=", last refreshed "+d.toLocaleDateString(undefined,{day:"numeric",month:"short"})+" at "+d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"});
+  }
+  st.textContent=t;
+}
+
+function renderAll(){renderStatus();renderMix();renderFeed()}
+renderFilters(); renderFeed();
+
+(async()=>{
+  try{
+    const res=await fetch("news.json",{cache:"no-cache"});
+    if(!res.ok) throw new Error(res.status);
+    const data=await res.json();
+    meta={updatedAt:data.updatedAt};
+    stories=(data.stories||[]).map(s=>({...s,id:s.id||s.url}))
+      .sort((a,b)=>(b.published||"").localeCompare(a.published||""));
+    renderAll();
+  }catch(e){
+    document.getElementById("status").textContent="Stories couldn't load. Check your connection and reopen the app.";
+  }
+})();
+if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}
+</script>
+</body>
+</html>
