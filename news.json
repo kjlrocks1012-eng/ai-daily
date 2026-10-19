@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T12:21:36.389Z",
+  "updatedAt": "2026-10-19T12:25:02.126Z",
   "stories": [
     {
       "title": "Microsoft signs 20-year power deal with NiSource for Indiana data center",
@@ -10,6 +10,36 @@
       "published": "2026-10-19",
       "id": "https://www.datacenterdynamics.com/en/news/microsoft-signs-20-year-power-deal-with-indiana-utility-nisource-for-planned-data-center-in-the-state/",
       "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Korean neocloud Elice's IPO tests AI investor nerve",
+      "summary": "Elice is listing on the Kosdaq to raise about $151M, after Nvidia-backed Firmus pulled its much larger Australian IPO earlier this month. The debut is a gauge of whether investors still back AI infrastructure.",
+      "category": "money",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/korea-data-center-ipo-to-test-ai-investor-resolve-after-tumult",
+      "published": "2026-10-19",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-19/korea-data-center-ipo-to-test-ai-investor-resolve-after-tumult",
+      "addedAt": "2026-10-19T12:25:02.126Z"
+    },
+    {
+      "title": "Google proposes 780MW Minnesota data center that funds new clean power",
+      "summary": "Google and Xcel Energy want to add wind, solar and battery capacity to the grid to serve a data center in Pine Island, Minnesota. Google would pay minimum demand charges and exit fees. The plan awaits state approval, and some experts doubt the buildout is needed.",
+      "category": "power",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "published": "2026-10-19",
+      "id": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "addedAt": "2026-10-19T12:25:02.126Z"
+    },
+    {
+      "title": "AI agents left alone on a virtual island started to 'play'",
+      "summary": "Researchers stranded Claude-based agents on a virtual desert island for 30 hours and saw them invent games such as basketball and 'the floor is lava'. Outside experts caution that the setup nudged the agents toward human-like behavior, so it may not be genuine play.",
+      "category": "research",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "published": "2026-10-19",
+      "id": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "addedAt": "2026-10-19T12:25:02.126Z"
     },
     {
       "title": "DeepSeek ships a faster, leaner V4.1-Flash update",
@@ -30,6 +60,26 @@
       "published": "2026-10-17",
       "id": "https://www.nature.com/articles/s44528-026-00041-2",
       "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Nvidia RTX Spark Windows laptops go on sale",
+      "summary": "Nvidia's RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. They are aimed at running local AI agents, and Nvidia is also releasing a 74B tool-calling model for them. This is a push to bring agentic AI onto personal PCs.",
+      "category": "models",
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "published": "2026-10-17",
+      "id": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "addedAt": "2026-10-19T12:25:02.126Z"
+    },
+    {
+      "title": "Modal and TypeSafe AI land large venture rounds",
+      "summary": "AI infrastructure startup Modal raised $750M at a $15.75B valuation, and TypeSafe AI, maker of Jev, raised about $870M at a $7.5B valuation. Investors are still paying up for AI infrastructure and fast-growing AI products.",
+      "category": "money",
+      "source": "Axios Pro",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/10/17/deals-of-the-week-modal-workday-proofpoint",
+      "published": "2026-10-17",
+      "id": "https://www.axios.com/pro/enterprise-software-deals/2026/10/17/deals-of-the-week-modal-workday-proofpoint",
+      "addedAt": "2026-10-19T12:25:02.126Z"
     },
     {
       "title": "OpenAI upgrades GPT-6 Pro with parallel agents and new voice models",
@@ -82,6 +132,16 @@
       "addedAt": "2026-10-19T12:21:36.389Z"
     },
     {
+      "title": "Nscale plans US IPO of up to $3B despite data center delays",
+      "summary": "British AI data center developer Nscale is preparing a US listing as soon as this month. Its Norway site has been delayed and hit by cooling leaks and a fire, which highlights the execution risk facing neoclouds.",
+      "category": "money",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/nscale-ipo-data-center-delays-show-risks-for-the-neoclouds",
+      "published": "2026-10-16",
+      "id": "https://www.bloomberg.com/news/newsletters/2026-10-16/nscale-ipo-data-center-delays-show-risks-for-the-neoclouds",
+      "addedAt": "2026-10-19T12:25:02.126Z"
+    },
+    {
       "title": "Meta releases open-weight Muse Spark Open, tuned for Macs",
       "summary": "Meta released an 816-billion-parameter open-weight model with a 1M-token context window. It is designed to run locally on Apple silicon, but it needs at least 1TB of RAM.",
       "category": "models",
@@ -120,6 +180,16 @@
       "published": "2026-10-15",
       "id": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
       "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "AI biotech Iambic jumps 16% in Nasdaq debut",
+      "summary": "Nvidia-backed Iambic Therapeutics raised $150M in its IPO and rose 16% on its first day. The result is a bright spot for AI-linked listings in a shaky market.",
+      "category": "money",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/nvidia-backed-ai-biotech-iambic-up-16-after-150-million-ipo",
+      "published": "2026-10-15",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-15/nvidia-backed-ai-biotech-iambic-up-16-after-150-million-ipo",
+      "addedAt": "2026-10-19T12:25:02.126Z"
     },
     {
       "title": "OpenAI promises not to use alleged Apple trade secrets as judge signals injunction",
@@ -222,6 +292,26 @@
       "addedAt": "2026-10-19T12:21:36.389Z"
     },
     {
+      "title": "Judge orders OpenAI to hand over hiring records in Apple trade secrets case",
+      "summary": "A federal judge gave Apple expedited access to OpenAI's interview materials with former Apple staff and approved depositions of three OpenAI employees, including its chief hardware officer. In a separate hearing, OpenAI agreed not to use any Apple secrets while the case proceeds.",
+      "category": "policy",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "published": "2026-10-13",
+      "id": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "addedAt": "2026-10-19T12:25:02.126Z"
+    },
+    {
+      "title": "Explainer: do open AI models' benefits outweigh the risks?",
+      "summary": "The piece follows Anthropic's report that Z.ai's freely downloadable GLM-5.3 poses a major cyberattack risk. It sets out the debate between safety advocates worried about misuse and supporters who want to avoid control by a few companies.",
+      "category": "research",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "published": "2026-10-13",
+      "id": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "addedAt": "2026-10-19T12:25:02.126Z"
+    },
+    {
       "title": "Meta launches Muse Wonder, its first frontier-class models",
       "summary": "Meta's Superintelligence Lab released Muse Wonder and Muse Wonder Full, which Meta says match top rival models. They emphasize agent memory and coding, and the strongest tiers are paid-only.",
       "category": "models",
@@ -240,6 +330,26 @@
       "published": "2026-10-12",
       "id": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/",
       "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Microsoft to deploy gigawatts of its own Maia 300 chips",
+      "summary": "Microsoft says its Maia 300 inference chips begin rolling out next year, aiming to run its AI software mostly on in-house hardware. The move reduces reliance on Nvidia.",
+      "category": "power",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/microsoft-prepares-to-put-gigawatts-of-its-chips-in-data-centers",
+      "published": "2026-10-12",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-12/microsoft-prepares-to-put-gigawatts-of-its-chips-in-data-centers",
+      "addedAt": "2026-10-19T12:25:02.126Z"
+    },
+    {
+      "title": "Anthropic details IoT self-replication experiments",
+      "summary": "Anthropic's technical write-up reports that a 9B model could set up inference on 8 of 9 hardware types tested. In its simplified tests, only GLM-5.2 could complete a full replication chain. It also gives rough estimates of how fast an AI worm could spread.",
+      "category": "research",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "published": "2026-10-12",
+      "id": "https://www.anthropic.com/research/self-replicating-ai",
+      "addedAt": "2026-10-19T12:25:02.126Z"
     },
     {
       "title": "Nvidia in early talks to deepen its Reflection AI investment",
