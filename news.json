@@ -1,6 +1,126 @@
 {
-  "updatedAt": "2026-10-15T01:26:29.946Z",
+  "updatedAt": "2026-10-19T12:21:36.389Z",
   "stories": [
+    {
+      "title": "Microsoft signs 20-year power deal with NiSource for Indiana data center",
+      "summary": "The agreement, which starts in 2028, includes 600MW of battery storage. Microsoft says it is designed so that its data centers do not raise electricity prices for other ratepayers.",
+      "category": "power",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-signs-20-year-power-deal-with-indiana-utility-nisource-for-planned-data-center-in-the-state/",
+      "published": "2026-10-19",
+      "id": "https://www.datacenterdynamics.com/en/news/microsoft-signs-20-year-power-deal-with-indiana-utility-nisource-for-planned-data-center-in-the-state/",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "DeepSeek ships a faster, leaner V4.1-Flash update",
+      "summary": "DeepSeek released V4.1-Flash-1017, which it says has stronger benchmarks, faster task completion and shorter outputs. The update adds pressure on U.S. rivals and on Chinese competitors such as Moonshot and Z.ai.",
+      "category": "models",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+      "published": "2026-10-17",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Scoping review maps bias in large AI models used in medicine",
+      "summary": "A new open-access review in Communications Health synthesizes how large AI models show, detect and reduce bias in healthcare settings. It matters as clinical use of these models grows.",
+      "category": "research",
+      "source": "Nature (Communications Health)",
+      "url": "https://www.nature.com/articles/s44528-026-00041-2",
+      "published": "2026-10-17",
+      "id": "https://www.nature.com/articles/s44528-026-00041-2",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "OpenAI upgrades GPT-6 Pro with parallel agents and new voice models",
+      "summary": "ChatGPT's GPT-6 Pro now offers faster responses, better tool use and multiple agents working on parts of a task in parallel. OpenAI also rolled out GPT-Live-1.1 voice models with more natural accents.",
+      "category": "models",
+      "source": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "published": "2026-10-16",
+      "id": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "CoreWeave sell-off widens the gap between OpenAI and Anthropic valuations",
+      "summary": "Neocloud stocks fell, and perpetual-futures prices implied OpenAI at about $1.5T and Anthropic at just over $2T. The gap shows how investors are separating the two labs ahead of their IPOs.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/16/coreweave-openai-anthropic-perps.html",
+      "published": "2026-10-16",
+      "id": "https://www.cnbc.com/2026/10/16/coreweave-openai-anthropic-perps.html",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Digital Realty plans gigawatt-scale campus in Kokomo, Indiana",
+      "summary": "The company wants three data centers on 476 acres, totaling about 1GW of IT capacity and possibly fully built by 2033. It is another sign of the AI buildout spreading into the Midwest.",
+      "category": "power",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/",
+      "published": "2026-10-16",
+      "id": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Anthropic pitches Congress its own AI safety bill",
+      "summary": "Per Politico, the draft would let the government block a model release if it posed an imminent risk of mass casualties or more than $1B in damage. Covered threats include bioweapons, loss of human control and cyberattacks.",
+      "category": "policy",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says",
+      "published": "2026-10-16",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-16/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Anthropic study: AI staff and the public expect very different futures",
+      "summary": "A survey of about 11,000 US adults and Anthropic staff found 91% of staff, but only 39% of the public, expect AI to make a Nobel-level discovery by 2030. The authors link the gap to differences in firsthand experience with AI.",
+      "category": "research",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/ai-expectations-gap",
+      "published": "2026-10-16",
+      "id": "https://www.anthropic.com/research/ai-expectations-gap",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Meta releases open-weight Muse Spark Open, tuned for Macs",
+      "summary": "Meta released an 816-billion-parameter open-weight model with a 1M-token context window. It is designed to run locally on Apple silicon, but it needs at least 1TB of RAM.",
+      "category": "models",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "published": "2026-10-15",
+      "id": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Anthropic tells investors it was cash-flow positive in Q3",
+      "summary": "Anthropic presented Q3 revenue of $16.8B, up nearly 50% from the prior quarter, along with positive cash flow. The numbers back its case for an IPO that some investors think could value it near $2 trillion.",
+      "category": "money",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow",
+      "published": "2026-10-15",
+      "id": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "1GW gas-powered data center campus approved near Austin",
+      "summary": "PowerHouse and Big Watt won local approval for a 664-acre campus in Taylor, Texas, running on a dedicated 750MW gas plant. Pairing generation with the data center from the start is meant to avoid grid interconnection delays.",
+      "category": "power",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/",
+      "published": "2026-10-15",
+      "id": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
+      "summary": "The FTC sent civil investigative demands to both labs seeking documents on security incidents, safeguards and marketing. It also plans to compel top executives to testify, signaling a tougher federal stance after several incidents with unreleased models.",
+      "category": "policy",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+      "published": "2026-10-15",
+      "id": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
     {
       "title": "OpenAI promises not to use alleged Apple trade secrets as judge signals injunction",
       "summary": "At a hearing, OpenAI agreed to avoid using Apple secrets allegedly taken by ex-employees and to preserve data from 14 employees' devices. The judge said he was highly likely to side with Apple.",
@@ -10,6 +130,16 @@
       "published": "2026-10-14",
       "id": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
       "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Eight states sue OpenAI over ChatGPT safety and children",
+      "summary": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana each filed suit in their own state courts. They allege ChatGPT is unsafe and has harmed children and deceived parents.",
+      "category": "policy",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
+      "published": "2026-10-14",
+      "id": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
+      "addedAt": "2026-10-19T12:21:36.389Z"
     },
     {
       "title": "Google opens Gemini 4 Argon to the public at promotional prices",
@@ -70,6 +200,26 @@
       "published": "2026-10-13",
       "id": "https://www.axios.com/2026/10/13/censys-ai-vibe-coding-exposures",
       "addedAt": "2026-10-15T01:26:29.946Z"
+    },
+    {
+      "title": "Google makes Gemini 4 Argon generally available",
+      "summary": "Google's new flagship frontier model is now available through the API, the Gemini app and Search AI Mode. It launches at an introductory price of $2 per million input tokens and $10 per million output tokens.",
+      "category": "models",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "published": "2026-10-13",
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "addedAt": "2026-10-19T12:21:36.389Z"
+    },
+    {
+      "title": "Pew: worry about finding work hits a five-year high",
+      "summary": "48% of US adults are very concerned that people who want jobs can't find them, the highest reading in Pew's five years of asking. Half also say they are very concerned about AI's role in the economy, though AI may not yet be driving job losses.",
+      "category": "research",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/13/job-concern-polls-ai",
+      "published": "2026-10-13",
+      "id": "https://www.axios.com/2026/10/13/job-concern-polls-ai",
+      "addedAt": "2026-10-19T12:21:36.389Z"
     },
     {
       "title": "Meta launches Muse Wonder, its first frontier-class models",
