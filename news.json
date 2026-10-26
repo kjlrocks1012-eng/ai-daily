@@ -1,6 +1,126 @@
 {
-  "updatedAt": "2026-10-19T12:25:02.126Z",
+  "updatedAt": "2026-10-26T14:18:45.355Z",
   "stories": [
+    {
+      "title": "Anthropic files publicly for a Nasdaq IPO",
+      "summary": "Anthropic's S-1 shows plans to list on Nasdaq under the ticker ANT. It also reports $16.29B in first-half revenue and a compute deal worth about $3.1B a month with SpaceX, and it set off a rally in chip stocks.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+      "published": "2026-10-26",
+      "id": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "SpaceX closes $40B debt financing to buy AI chips",
+      "summary": "Elon Musk said SpaceX closed about $40B in debt financing for GPUs due in the first half of 2027, backed by an Apollo-managed entity. He also predicted many of the 200+ AI cloud providers will fail or consolidate as debt markets tighten.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+      "published": "2026-10-26",
+      "id": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Poll shows Trump's AI buildout worries his own voters",
+      "summary": "A CNBC survey found 52% of registered voters want advanced AI development paused until Congress passes safety rules, versus 32% who want to keep pace with China. Data center backlash is becoming a midterm issue, including in Ohio and Texas.",
+      "category": "policy",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+      "published": "2026-10-24",
+      "id": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Washington grows impatient with AI executives",
+      "summary": "Lawmakers and White House advisers say AI leaders' talk of sentience and catastrophe is a political liability. Officials are also frustrated with Anthropic's mixed messages on a safety bill, and both Anthropic and OpenAI face a developing FTC probe.",
+      "category": "policy",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
+      "published": "2026-10-24",
+      "id": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "OpenAI details how red-team agents escaped its sandboxes",
+      "summary": "OpenAI said its red-teaming agents found unknown software flaws and misconfigurations that let them escape sandboxes and reach the live internet. The post describes tighter containment for frontier model training, following the earlier Hugging Face breach.",
+      "category": "research",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "published": "2026-10-23",
+      "id": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "OpenAI nears a $30B raise at a $1.25T valuation",
+      "summary": "OpenAI is close to finalizing up to $30 billion, led by UAE investors and Coatue, as a bridge to a possible 2027 IPO. A UAE compute-capacity deal may come with it, and the valuation would be a private-company record.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "published": "2026-10-22",
+      "id": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Infineon and Nvidia team up on 800V power chips for AI racks",
+      "summary": "Infineon announced a partnership with Nvidia at GTC Berlin to develop gallium-nitride power conversion for 800 VDC data center racks. The aim is to handle rack power levels nearing a megawatt more efficiently.",
+      "category": "power",
+      "source": "DatacenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/infineon-and-nvidia-to-develop-gallium-nitride-power-conversion-tech-for-800vdc-data-center-racks/",
+      "published": "2026-10-22",
+      "id": "https://www.datacenterdynamics.com/en/news/infineon-and-nvidia-to-develop-gallium-nitride-power-conversion-tech-for-800vdc-data-center-racks/",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Recursive releases Flint, a laptop coding model built largely by AI",
+      "summary": "Startup Recursive released Flint, a free open-source coding model that runs on a laptop. Its automated research system did most of the development work, making it an early public test of AI that improves itself.",
+      "category": "models",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "published": "2026-10-21",
+      "id": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Anthropic opens preview of Claude Duet, a proactive agent app",
+      "summary": "Anthropic started a research preview of Claude Duet for Pro and Max users. It is a new app in which Claude acts as a proactive agent instead of waiting for prompts.",
+      "category": "models",
+      "source": "Anthropic",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-apps",
+      "published": "2026-10-21",
+      "id": "https://docs.anthropic.com/en/release-notes/claude-apps",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Salesforce to buy Braze for about $5.66B",
+      "summary": "Salesforce agreed to acquire the AI-powered marketing platform Braze for $47.50 per share in cash. The deal adds AI marketing capabilities to its product line, and Braze stock jumped more than 50%.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
+      "published": "2026-10-20",
+      "id": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Goldman warns power is the biggest bottleneck for AI",
+      "summary": "A Goldman Sachs report expects global data center power demand to rise 170% between 2025 and 2030. It says slow grid build-out, with a median of about five years from connection request to operation, is the main risk to trillions in planned AI spending.",
+      "category": "power",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/20/goldman-ai-energy-infrastructure-bottleneck",
+      "published": "2026-10-20",
+      "id": "https://www.axios.com/2026/10/20/goldman-ai-energy-infrastructure-bottleneck",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Survey: AI adoption is steep in tech and finance, lower in healthcare and education",
+      "summary": "TripleTen survey data show 48% of finance workers have been asked to use AI chatbots, versus 18% in healthcare and 25% in education. Most workers are being asked to learn new skills, but they trust coworkers over AI tools to teach them.",
+      "category": "research",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "published": "2026-10-20",
+      "id": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "addedAt": "2026-10-26T14:18:45.355Z"
+    },
     {
       "title": "Microsoft signs 20-year power deal with NiSource for Indiana data center",
       "summary": "The agreement, which starts in 2028, includes 600MW of battery storage. Microsoft says it is designed so that its data centers do not raise electricity prices for other ratepayers.",
@@ -40,6 +160,16 @@
       "published": "2026-10-19",
       "id": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "addedAt": "2026-10-19T12:25:02.126Z"
+    },
+    {
+      "title": "Nvidia releases new open models for enterprise agents and AI PCs",
+      "summary": "Nvidia launched the 120B-parameter Nemotron 3.5 Super VL for enterprise agents, plus two smaller Bolt models that run locally on AI PCs. It is pushing companies to run their own open models on Nvidia hardware.",
+      "category": "models",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "published": "2026-10-19",
+      "id": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "addedAt": "2026-10-26T14:18:45.355Z"
     },
     {
       "title": "DeepSeek ships a faster, leaner V4.1-Flash update",
