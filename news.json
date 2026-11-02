@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-10-26T14:18:45.355Z",
+  "updatedAt": "2026-11-02T12:46:05.212Z",
   "stories": [
+    {
+      "title": "OpenAI signs Abu Dhabi deals as it chases a UAE-backed funding round",
+      "summary": "OpenAI signed agreements with Abu Dhabi entities covering energy, government and investment, including a deal with ADNOC and G42. CNBC reports it is seeking up to $20 billion in a round co-led by UAE investors.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
+      "published": "2026-11-02",
+      "id": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "PJM plans a special March auction for data-center power capacity",
+      "summary": "The largest US grid operator filed a revised plan after federal regulators called its first proposal deeply flawed and delayed the auction. The auction depends on FERC approving new rules on who pays for capacity serving data centers.",
+      "category": "power",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/largest-us-grid-seeks-to-hold-data-center-power-auction-in-march",
+      "published": "2026-10-30",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-30/largest-us-grid-seeks-to-hold-data-center-power-auction-in-march",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Runware plans a factory to mass-produce prefab AI data centers",
+      "summary": "The startup wants to scale its Romanian factory to about 30 MW of modular data-center capacity per day by 2028, with pods online within 48 hours of delivery. Execution is unproven, but speed to power is a major bottleneck for AI buildouts.",
+      "category": "power",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+      "published": "2026-10-30",
+      "id": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Google's prototype orbital data center is online",
+      "summary": "The Suncatcher satellite, carrying four TPUs, is communicating with the ground. Limited onboard power means it can run one chip for only about 20 minutes at a time. Google plans two more satellites in 2027 to test AI inference in orbit.",
+      "category": "power",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
+      "published": "2026-10-30",
+      "id": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "New Axios-CivicScience index finds Americans expect an AI boom without jobs",
+      "summary": "The poll of more than 7,300 adults puts overall AI sentiment at about 42 out of 100. Only the economic-growth measure is net positive, while the 'creates more jobs' measure is strongly negative.",
+      "category": "research",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/30/ai-sentiment-economy-jobs-axios-civicscience",
+      "published": "2026-10-30",
+      "id": "https://www.axios.com/2026/10/30/ai-sentiment-economy-jobs-axios-civicscience",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Cohere raises at $20.5B valuation with backing from Canada and Nvidia",
+      "summary": "Cohere completed the first close of a round expected to reach up to $5 billion. Backers include the Government of Canada and Nvidia, and the valuation is about triple last year's.",
+      "category": "money",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/canada-nvidia-back-cohere-in-round-at-over-20-billion-value",
+      "published": "2026-10-29",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/canada-nvidia-back-cohere-in-round-at-over-20-billion-value",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Korean AI chip startup FuriosaAI raises $620M, quadrupling its valuation",
+      "summary": "FuriosaAI's Series D values the Seoul-based company at $2.9 billion. South Korea's National Growth Fund put in $280 million, as challengers try to compete with Nvidia.",
+      "category": "money",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/furiosaai-quadruples-valuation-to-2-9-billion-in-nvidia-chase",
+      "published": "2026-10-29",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/furiosaai-quadruples-valuation-to-2-9-billion-in-nvidia-chase",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Hubbell says data-center orders for electrical gear jumped more than 80%",
+      "summary": "The supplier's third-quarter results show data-center sales up over 80%, now about 15% of its electrical segment. It is a sign that the AI buildout is driving heavy demand for grid and electrical equipment.",
+      "category": "power",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/data-center-purchases-of-electrical-equipment-up-80-since-2025-hubbell/873134/",
+      "published": "2026-10-29",
+      "id": "https://www.utilitydive.com/news/data-center-purchases-of-electrical-equipment-up-80-since-2025-hubbell/873134/",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Pew: most Americans uncomfortable with AI in medical decisions",
+      "summary": "In a Pew survey of 3,488 US adults, 60% said they were uncomfortable with AI helping their doctor diagnose or plan treatment. People were more open to lower-stakes uses such as translation.",
+      "category": "research",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/americans-reject-use-of-ai-for-medical-and-coverage-decisions",
+      "published": "2026-10-29",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/americans-reject-use-of-ai-for-medical-and-coverage-decisions",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Nvidia releases free open transcription model covering 40 languages",
+      "summary": "Nemotron 3.5 Transcribe is an open-weight speech-to-text model that handles recordings up to an hour long and tells speakers apart. It works only on recorded audio, not live streams, so it is aimed at meeting and medical transcription tools.",
+      "category": "models",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+      "published": "2026-10-28",
+      "id": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Google DeepMind unveils Genie 4 world model",
+      "summary": "Genie 4 simulates interactive worlds in real time, with native audio and scenes you steer using natural language. It is going first to trusted testers. Google says world models are a key step toward training robots and agents.",
+      "category": "models",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+      "published": "2026-10-27",
+      "id": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
     {
       "title": "Anthropic files publicly for a Nasdaq IPO",
       "summary": "Anthropic's S-1 shows plans to list on Nasdaq under the ticker ANT. It also reports $16.29B in first-half revenue and a compute deal worth about $3.1B a month with SpaceX, and it set off a rally in chip stocks.",
@@ -20,6 +130,26 @@
       "published": "2026-10-26",
       "id": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
       "addedAt": "2026-10-26T14:18:45.355Z"
+    },
+    {
+      "title": "Anthropic files for Nasdaq IPO, revealing huge losses and compute commitments",
+      "summary": "Anthropic's S-1 plans a listing under the ticker ANT. It shows an $80.7 billion first-half loss, mostly from accounting charges, along with hundreds of billions of dollars in compute obligations.",
+      "category": "money",
+      "source": "CNBC",
+      "url": "https://cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+      "published": "2026-10-26",
+      "id": "https://cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+      "addedAt": "2026-11-02T12:46:05.212Z"
+    },
+    {
+      "title": "Meta's $42B in legal penalties is read as a warning for AI firms",
+      "summary": "Axios says AI companies lack the Section 230 shield that protected web platforms, so they face product-liability and negligence claims. Large penalties can take years to arrive but can then be enormous.",
+      "category": "policy",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/26/meta-litigation-ai-legal-risk",
+      "published": "2026-10-26",
+      "id": "https://www.axios.com/2026/10/26/meta-litigation-ai-legal-risk",
+      "addedAt": "2026-11-02T12:46:05.212Z"
     },
     {
       "title": "Poll shows Trump's AI buildout worries his own voters",
